@@ -13,7 +13,7 @@ const cors = require('cors');
 const app = express();
 
 const corsOptions = {
-  origin: [process.env.CLIENT_URL, 'https://campsup.onrender.com'],
+  origin: [process.env.CLIENT_URL, 'https://camsup.onrender.com'],
   credentials: true,
   allowedHeaders: ['sessionId', 'Content-Type'],
   exposedHeaders: ['sessionId'],
