@@ -1,0 +1,6 @@
+version: 1
+services:
+  - name: backend
+    buildCommand: npm install
+    startCommand: npm start
+    context: main/site
