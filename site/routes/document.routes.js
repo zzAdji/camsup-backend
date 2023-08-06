@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const documentController = require('../controllers/document.controller');
-const multer = require('multer');
+import multer from 'multer';
 const upload = multer();
 
 router.get('/', documentController.readDocument);
